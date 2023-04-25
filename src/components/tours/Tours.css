@@ -9,8 +9,12 @@ img{
     align-items:center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 div{
     padding: 10px;
     padding-right: 50px;
+}
+Card{padding-left: 20px;
+
 }
