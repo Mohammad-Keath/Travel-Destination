@@ -1,6 +1,7 @@
 import './Tours.css'
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/card';
+import Card from 'react-bootstrap/Card';
+
 import { useState } from 'react';
 function Tours(prop){
     const detailes = ((props) => {
@@ -26,10 +27,9 @@ return(
                 <Card.Body>
                     <Card.Title>{item.name}</Card.Title>
                     <Card.Text>
-                        <p>{item.age}</p>
-                        <p>age: {takenToys}</p>
+                       
                     </Card.Text>
-                    <Button onClick={detailes} variant="primary">Detailes</Button>
+                    <Button onClick={<TourDetails/>} variant="primary">Detailes</Button>
                 </Card.Body>
                 </Card>
                </>
